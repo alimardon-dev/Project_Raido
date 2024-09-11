@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 :root{
     --primary-color: #0a0d14;
     --primary-color-light: #20242f;
@@ -15,35 +16,35 @@
     margin: 0;
     box-sizing: border-box;
 }
-/* .section__container{
+.section__container{
     max-width: var(--max-width);
     margin: auto;
     padding: 5rem 1rem;
-} */
-/* .section__header{
+}
+.section__header{
     margin-bottom: 2rem;
     font-size: 3rem;
     font-weight: 800;
     font-family: var(--header-font);    
     text-align: center;
-} */
-/* .section__subheader{
+}
+.section__subheader{
     max-width: 600px;
     margin: auto;
     text-align: center;
-} */
-/* .btn{
+}
+.btn{
     padding: 0.75rem 1.5rem;
     outline: none;
     border: none;
     font-size: 1rem;
     color: var(--primary-color);
     cursor: pointer;
-} */
-/* img{
+}
+img{
     width: 100%;
     display: flex;
-} */
+}
 a{
     text-decoration: none;
 }
@@ -56,16 +57,16 @@ body{
     color: var(--white);
     background-color:  var(--primary-color);
 }
-/* header{
+header{
     background-image: linear-gradient(top, var(--primary-color), transparent), url("assets/header.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-} */
-/* nav{
+}
+nav{
     background-color: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid var(--extra-light);
-} */
+}
 .nav__bar{
     max-width: var(--max-width);
     margin: auto;
@@ -86,21 +87,21 @@ body{
     align-items: center;
     gap: 2rem;
 }
-/* .link a{
+.link a{
     padding: 1.5rem 5px;
     font-weight: 500;
     color: var(--white);
     transition: 0.3s;
-} */
-/* .link:hover{
+}
+.link:hover{
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-} */
-/* .link span{
+}
+.link span{
     padding: 1rem 0;
     color: var(--white);
     cursor: pointer;
-} */
+}
 body{
     font-family: "Lisu Bosa", serif;
     font-family: "Poppins", sans-serif;
