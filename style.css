@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
 :root{
     --primary-color: #0a0d14;
     --primary-color-light: #20242f;
@@ -84,6 +83,7 @@ nav{
 .nav__links{
     list-style: none;
     display: flex;
+    flex-direction: row;
     align-items: center;
     gap: 2rem;
 }
@@ -95,9 +95,10 @@ nav{
 }
 .link:hover{
     color: var(--secondary-color);
+    color: #f49e09;
     border-bottom: 2px solid var(--secondary-color);
 }
-.link span{
+.link > span{
     padding: 1rem 0;
     color: var(--white);
     cursor: pointer;
@@ -106,6 +107,24 @@ body{
     font-family: "Lisu Bosa", serif;
     font-family: "Poppins", sans-serif;
 }
+.header__container{
+    padding: 12rem 1rem;
+}
+.header__container h1{
+    margin-bottom: 1rem;
+    max-width: 700px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
