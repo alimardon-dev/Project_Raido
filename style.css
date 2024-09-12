@@ -56,8 +56,8 @@ body{
     color: var(--white);
     background-color:  var(--primary-color);
 }
-header{
-    background-image: linear-gradient(top, var(--primary-color), transparent), url("assets/header.jpg");
+#home{
+    background-image: linear-gradient(to top, var(--primary-color), transparent), url("assets/header.jpg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -113,10 +113,65 @@ body{
 .header__container h1{
     margin-bottom: 1rem;
     max-width: 700px;
-    
+    font-size: 4rem;
+    font-family: var(--header-font);
 }
-
-
+.header__container h4{
+    position: relative;
+    margin-left: 3rem;
+    margin-bottom: 2rem;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.header__container h4::after{
+    position: absolute;
+    content: "";
+    left: -3rem;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 2rem;
+    background-color: var(--white);
+}
+.about_container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    align-items: center;
+}
+.about_container :is(.section__header, .section__subheader){
+    text-align: left;
+}
+.about__flex{
+    margin: 2rem 0;
+    padding: 2rem 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: var(--primary-color-light);
+}
+.about__card{
+    flex: 1 1 150px;
+    text-align: center;
+    border-right: 2px solid var(--primary-color);
+}
+.about__card:last-child{
+    border: none;
+}
+.about__card h4{
+    margin-bottom: 5px;
+    font-size: 3rem;
+    font-weight:600;
+    font-family: var(--header-font); 
+}
+.about__card p{
+    font-size: 0.9rem;
+}
+.about__image img{
+    max-width: 450px;
+    margin: auto;
+}
 
 
 
